@@ -1,6 +1,6 @@
 import './style.css';
 import React from 'react';
-function Review(props) {
+function ReviewList(props) {
   const { title, mark, text, authorName, authorImg } = props;
   return (
     <div className="commentsContainer">
@@ -22,4 +22,4 @@ function Review(props) {
     </div>
   );
 }
-export default Review;
+export default ReviewList;

@@ -26,9 +26,6 @@
   max-width: 800px;
 }
 
-.commentArticle {
-}
-
 .authorData {
   display: flex;
   align-items: center;
@@ -77,4 +74,8 @@
 
 .commentText {
   line-height: 1.3;
+}
+
+.highReviews {
+  background-color: rgb(143, 42, 42);
 }
